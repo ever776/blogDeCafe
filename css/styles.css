@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box; /*sniped de paul_irish*/
+  font-size: 62.5%; /** 1rem = 10px **/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body  {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/*Globales*/
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'PT Sans', sans-serif;
+  
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3.2rem;
+}
+h4 {
+  font-size: 2.8rem;
+}
+img {
+  max-width: 100%; /*para que se adapten en su contenedor*/
+}
+
+
+/*Utilidades*/
+
+.centrar-texto {
+  text-align: center;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+
+
+/*Header*/
+.site-header {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;  /*por lo general todas las imagenes se repiten asi que*/
+  background-position: center center;
+  background-size: cover; /*se llene tanto altura y ancho se nota  pantallas pequeñas*/
+  height: 60rem;
+}
+
+.site-header a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-header h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.site-header h1 span {
+  font-weight: 700;
+}
+
+/*Navegacion*/
+.navegacion a {
+  text-align: center;
+  display: block;
+  font-size: 1.8rem; /*por defecto son 16px*/
+}
+
+/*header texto*/
+
+.texto-header {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.texto-header p {
+  font-size: 2.2rem;
+}
